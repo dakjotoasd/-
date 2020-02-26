@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>*경*박철진 문수산 등정*축*</title>
+    <style>
+
+
+      #test{
+        width: 50%;
+        height: 50%;
+
+      }
+    </style>
+  </head>
+  <body>
+    <script type="text/javascript">
+  var i = 0;
+  function toggle_object(post_id)
+  {
+      i = i + post_id;
+      var obj = document.getElementById('test');
+      if(!obj) return;
+
+      if(i%2!=0)
+      {
+          obj.src="33.jpg";
+
+      }
+      else
+      {
+          obj.src="34.jpg";
+      }
+  }
+  </script>
+  <center><h1>박철진 회장</h1></center>
+  <center><a href="#" onclick="toggle_object(1); return false;"> <img src="34.jpg" id="test" />> </a><center><br>
+    <center><h2>클릭시 STUDY MODE ON</h2></center>
+
+
+
+
+  </body>
+</html>
